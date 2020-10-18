@@ -10,7 +10,7 @@ import {
 // mobile phones
 function RenderMobileNavbar() {
     return (
-    <ul>
+    <ul className="navbar__options-container">
         <li><a href="#home"><img src={process.env.PUBLIC_URL + "/icons/whiteHome.png"} alt="Home option"/></a></li>
         <li><a href="#projects"><img src={process.env.PUBLIC_URL + "/icons/projectsWhite.png"} alt="Projects option"/></a></li>
         <li><a href="#about"><img src={process.env.PUBLIC_URL + "/icons/profileWhite.png"} alt="About option"/></a></li>
@@ -21,7 +21,7 @@ function RenderMobileNavbar() {
 // PCs and laptops
 function RenderBrowserNavbar() {
     return (
-    <ul>
+    <ul className="navbar__options-container">
         <li><a href="#home">HOME</a></li>
         <li>&#9787;</li>
         <li><a href="#projects">PROJECTS</a></li>
