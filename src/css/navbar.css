@@ -12,19 +12,33 @@
   align-items: center;
 }
 
-.navbar__options-container {
-  max-width: 900px;
+.navbar__options-container-browser,
+.navbar__options-container-phone {
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
-.navbar__option a {
+.navbar__options-container-browser {
+  max-width: 900px;
+}
+
+.navbar__options-container-phone {
+  width: 100%;
+}
+
+.navbar__option-browser a,
+.navbar__option-phone a {
+  margin: 0 30px;
+}
+
+.navbar__option-browser a {
   font-family: "Montserrat", sans-serif;
+  font-size: 24px;
   font-weight: light;
 }
 
-.navbar__option a img {
-  height: 100%;
+.navbar__option-phone a img {
+  height: 50px;
 }
