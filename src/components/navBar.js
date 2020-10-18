@@ -1,8 +1,7 @@
 import React from 'react'
 import {
     BrowserView,
-    MobileView,
-    isMobile
+    MobileView
   } from "react-device-detect";
 
 
