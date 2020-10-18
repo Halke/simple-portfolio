@@ -39,3 +39,7 @@ h6 {
 p {
   font-size: 24px;
 }
+
+ul {
+  list-style-type: none;
+}
