@@ -1,16 +1,20 @@
 import React from 'react'
 import "../css/descriptiveSection.css";
 
-function DescriptiveSection({bgColor, fontColor, heading, content}) {
+function DescriptiveSection({fontColor, heading, content}) {
     
-    const style = {
-        backgroundColor: `${bgColor}`,
+    let style = {
         color: `${fontColor}`
+    }
+
+    if(heading === 'Personal info'){
+        style.textAlign = 'right';
     }
 
     return (
         <div className="descriptive-section" style={style}>
-            <h1 className="descriptive-section__heading">{heading}</h1>
+            <h2 className="descriptive-section__heading">{heading}</h2>
+            <span className="descriptive-section__underline"></span>
             <p className="descriptive-section__content">{content}</p>
         </div>
     )
