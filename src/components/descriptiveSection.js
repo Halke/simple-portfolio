@@ -1,15 +1,17 @@
 import React from 'react'
 import "../css/descriptiveSection.css";
 
-function DescriptiveSection({children, bgColor}) {
+function DescriptiveSection({bgColor, fontColor, heading, content}) {
     
     const style = {
-        backgroundColor: `${bgColor}`
+        backgroundColor: `${bgColor}`,
+        color: `${fontColor}`
     }
 
     return (
-        <div className="descrSection" style={style}>
-            {children}
+        <div className="descriptive-section" style={style}>
+            <h1>{heading}</h1>
+            <p>{content}</p>
         </div>
     )
 }
