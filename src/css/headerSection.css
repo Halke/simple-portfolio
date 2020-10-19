@@ -31,6 +31,12 @@
   align-items: center;
 }
 
+.header__content-browser,
+.header__content-phone {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 25;
+}
+
 .header__content-browser {
   width: 30%;
   color: #f1faee;
