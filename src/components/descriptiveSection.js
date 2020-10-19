@@ -10,8 +10,8 @@ function DescriptiveSection({bgColor, fontColor, heading, content}) {
 
     return (
         <div className="descriptive-section" style={style}>
-            <h1>{heading}</h1>
-            <p>{content}</p>
+            <h1 className="descriptive-section__heading">{heading}</h1>
+            <p className="descriptive-section__content">{content}</p>
         </div>
     )
 }
