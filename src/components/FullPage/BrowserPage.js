@@ -31,6 +31,16 @@ function BrowserPage() {
                         fontColor="#f1faee"
                     />
                 </div>
+                <div className="browser-page__fields-of-interest">
+                    {/* Overlay from top */}
+                    <div>
+
+                    </div>
+                    {/* Overlay from bottom */}
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </div>
     )
