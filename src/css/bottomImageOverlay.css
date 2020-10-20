@@ -1,15 +1,15 @@
-.bottom-image-overlay__container {
+.bottom-overlay__container {
   position: relative;
   width: 50%;
 }
 
-.bottom-image-overlay__image {
+.bottom-overlay__image {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.bottom-image-overlay__overlay {
+.bottom-overlay__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -21,12 +21,12 @@
   transition: 0.5s ease;
 }
 
-.bottom-image-overlay__container:hover .bottom-image-overlay__overlay {
+.bottom-overlay__container:hover .bottom-overlay__overlay {
   height: 100%;
 }
 
-.bottom-image-overlay__text {
-  color: white;
+.text {
+  color: #f1faee;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -35,4 +35,5 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
