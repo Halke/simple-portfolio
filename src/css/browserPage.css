@@ -28,6 +28,19 @@
   box-shadow: 6px 6px 6px 0px #545454; */
 }
 
+.browser-page__fields-of-interest {
+  background-color: #457b9d;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.browser-page__fields-of-interest div {
+  width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
   .browser-page__content {
     width: 100%;
@@ -44,5 +57,10 @@
 
   .browser-page__about-profile-photo {
     width: 100%;
+  }
+
+  .browser-page__fields-of-interest {
+    flex-direction: column;
+    padding-bottom: 10px;
   }
 }

@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from "../navBar";
 import HeaderSection from "../headerSection";
 import DescriptiveSection from "../descriptiveSection";
+import TopImageOverlay from "../topImageOverlay";
+import BottomImageOverlay from "../bottomImageOverlay";
 import "../../css/browserPage.css";
 
 function BrowserPage() {
@@ -34,10 +36,18 @@ function BrowserPage() {
                 <div className="browser-page__fields-of-interest">
                     {/* Overlay from top */}
                     <div>
-
+                        <TopImageOverlay imageUrl={`${process.env.PUBLIC_URL}/images/frontend_bg.png`} />
                     </div>
                     {/* Overlay from bottom */}
                     <div>
+                        <BottomImageOverlay imageUrl={`${process.env.PUBLIC_URL}/images/backend_bg.png`} />
+                    </div>
+                </div>
+                <div className="browser-page__projects">
+                    <div className="browser-page__projects-description">
+
+                    </div>
+                    <div className="browser-page__projects-carousel">
 
                     </div>
                 </div>
