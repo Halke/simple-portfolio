@@ -1,0 +1,42 @@
+.projects-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e63946;
+}
+
+.projects-section div {
+  width: 100%;
+}
+
+.projects-section__info {
+  text-align: center;
+  padding: 10px 15px;
+  color: #f1faee;
+}
+
+.projects-section__heading-underline {
+  border: none;
+  width: 80%;
+  display: block;
+  background-color: #1d3557;
+  height: 5px;
+  margin: 0 auto 10px auto;
+}
+
+.projects-section__carousel {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-section {
+    flex-direction: column;
+  }
+
+  .projects-section__info {
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+}

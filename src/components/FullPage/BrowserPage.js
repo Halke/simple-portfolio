@@ -4,6 +4,7 @@ import HeaderSection from "../headerSection";
 import DescriptiveSection from "../descriptiveSection";
 import TopImageOverlay from "../topImageOverlay";
 import BottomImageOverlay from "../bottomImageOverlay";
+import ProjectsSection from "../projectsSection";
 import "../../css/browserPage.css";
 
 function BrowserPage() {
@@ -44,12 +45,7 @@ function BrowserPage() {
                     </div>
                 </div>
                 <div className="browser-page__projects">
-                    <div className="browser-page__projects-description">
-
-                    </div>
-                    <div className="browser-page__projects-carousel">
-
-                    </div>
+                    <ProjectsSection />
                 </div>
             </div>
         </div>
