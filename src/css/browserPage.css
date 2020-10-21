@@ -41,6 +41,13 @@
   width: 100%;
 }
 
+.browser-page__skills {
+  width: 100%;
+  background-image: url("/images/coding_bg_styled.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 768px) {
   .browser-page__content {
     width: 100%;
