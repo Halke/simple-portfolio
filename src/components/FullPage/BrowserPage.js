@@ -48,6 +48,9 @@ function BrowserPage() {
                     <ProjectsSection />
                 </div>
             </div>
+            <div className="browser-page__skills">
+                
+            </div>
         </div>
     )
 }
