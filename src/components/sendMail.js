@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import MailForm from "./mailForm";
 import "../css/sendMail.css";
 
 function SendMail() {
@@ -17,12 +18,12 @@ function SendMail() {
                             src={showForm === false ? 
                                 `${process.env.PUBLIC_URL}/icons/down-arrow.png` 
                                 : 
-                                `${process.env.PUBLIC_URL}/icons/up-arrow.png`} 
+                                `${process.env.PUBLIC_URL}/icons/arrow-up.png`} 
                             alt="Letter icon"
                         />
                     </span>
                 </button>
-                {}
+                {showForm ? <MailForm /> : null}
             </div>
         </div>
     )

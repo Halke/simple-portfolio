@@ -1,0 +1,52 @@
+.send-mail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.send-mail__heading {
+  color: #1d3557;
+  font-family: "Montserrat", sans-serif;
+  font-weight: regular;
+  margin-bottom: 25px;
+}
+
+.send-mail__open-form-btn {
+  width: 600px;
+  text-align: center;
+  background-color: #1d3557;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #f1faee;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.send-mail__open-form-btn:focus {
+  outline: none;
+}
+
+.send-mail__arrow-icon-container {
+  margin-left: 10px;
+}
+
+.send-mail__arrow-icon {
+  height: 28px;
+  width: 28px;
+}
+
+@media only screen and (max-width: 768px) {
+  .send-mail__open-form-btn {
+    width: 100%;
+    margin-bottom: -1px;
+  }
+
+  .send-mail__heading {
+    font-size: 24px;
+  }
+}

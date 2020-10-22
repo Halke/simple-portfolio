@@ -41,7 +41,7 @@ function MailForm() {
                     onChange={handleChange} 
                     className="mail-form__mail-content" 
                     placeholder="Type here..." 
-                    name="conten" 
+                    name="content" 
                     value={email.content}
                 />
                 <button className="mail-form__send-mail-btn" onClick={sendMail} >

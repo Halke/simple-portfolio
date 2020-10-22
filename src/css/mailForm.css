@@ -1,0 +1,81 @@
+.mail-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1d3557;
+  color: #f1faee;
+  margin: 0px;
+}
+
+.mail-form__form {
+  width: 100%;
+}
+
+.mail-form__mail-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mail-form__mail-info input {
+  width: 30%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #f1faee;
+  color: #f1faee;
+  font-size: 14px;
+}
+
+/*
+/
+/  Setting color of a placeholder
+/
+*/
+
+.mail-form__mail-info input::placeholder {
+  color: #f1faee;
+  opacity: 1;
+}
+
+.mail-form__mail-content::placeholder {
+  color: #1d3557;
+  opacity: 1;
+}
+
+/*************************************/
+
+.mail-form__mail-content {
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  height: 400px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.mail-form__mail-content:focus {
+  outline: 0;
+}
+
+.mail-form__send-mail-btn {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 5px 10px;
+  background-color: #f1faeece;
+  color: #1d3557;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
