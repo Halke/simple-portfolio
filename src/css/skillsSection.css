@@ -1,0 +1,68 @@
+.skills-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills-section__heading {
+  color: #1d3557;
+  background-color: #f1faeea9;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.skills-section__skill-with-bg {
+  width: 350px;
+  height: 85px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.skills-section__programming-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.skills-section__skill-level {
+  margin-right: 10px;
+}
+
+.javascript {
+  color: #fadf33;
+}
+
+.express {
+  color: rgb(231, 231, 231);
+}
+
+.nodejs {
+  color: #303030;
+}
+
+.nosql {
+  color: #03cb9b;
+}
+
+.skills-section__skill-name {
+  line-height: 60px;
+  color: #457b9d;
+}
+
+@media only screen and (max-width: 768px) {
+  .skills-section {
+    background-image: url("/images/coding_bg.jpg");
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .skills-section__other-skills {
+    display: none;
+  }
+}

@@ -48,6 +48,15 @@
   background-repeat: no-repeat;
 }
 
+.browser-page__skills-heading {
+  text-align: center;
+  background-color: #e63946;
+  color: #f1faee;
+  border-top: 5px solid #f1f1f1;
+  height: 60px;
+  padding-top: 15px;
+}
+
 @media only screen and (max-width: 768px) {
   .browser-page__content {
     width: 100%;
