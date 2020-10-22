@@ -46,6 +46,7 @@
   background-image: url("/images/coding_bg_styled.png");
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
 
 .browser-page__skills-heading {
@@ -55,6 +56,16 @@
   border-top: 5px solid #f1f1f1;
   height: 60px;
   padding-top: 15px;
+}
+
+.browser-page__send-mail {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.browser-page__send-mail div {
+  margin: 0px auto 0px auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -78,5 +89,9 @@
   .browser-page__fields-of-interest {
     flex-direction: column;
     padding-bottom: 10px;
+  }
+
+  .browser-page__send-mail {
+    width: 95%;
   }
 }
