@@ -23,7 +23,7 @@ function SkillsSection() {
                             className={`${skill} skills-section__skill-with-bg`} 
                             style={{backgroundImage: `url("/images/${skill}.png")`}}
                         >
-                            <h2 className="skills-section__skill-level">{skillLevels[index]}</h2>
+                            <h2 className="skills-section__skill-level">{skillLevels[index]}%</h2>
                         </div>
                     );
                 })}
@@ -33,7 +33,7 @@ function SkillsSection() {
                     return (
                         <div 
                             key={index} 
-                            className={`${programmingSkills[index]} skills-section__skill-without-bg`}
+                            className="skills-section__skill-without-bg"
                         >
                             <h2 className="skills-section__skill-name">{skill}</h2>
                         </div>
