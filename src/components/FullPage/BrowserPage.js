@@ -5,6 +5,7 @@ import DescriptiveSection from "../descriptiveSection";
 import TopImageOverlay from "../topImageOverlay";
 import BottomImageOverlay from "../bottomImageOverlay";
 import ProjectsSection from "../projectsSection";
+import SkillsSection from "../skillsSection";
 import "../../css/browserPage.css";
 
 function BrowserPage() {
@@ -46,10 +47,11 @@ function BrowserPage() {
                 </div>
                 <div className="browser-page__projects">
                     <ProjectsSection />
+                    <h1 className="browser-page__skills-heading">My Skills</h1>
                 </div>
             </div>
             <div className="browser-page__skills">
-                
+                <SkillsSection />
             </div>
         </div>
     )
