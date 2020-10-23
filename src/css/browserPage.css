@@ -18,14 +18,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 300px; */
   background-color: #457b9d;
 }
 
 .browser-page__about-profile-photo-circle {
-  padding: 50px 10px 10px 10px;
-  /* -webkit-box-shadow: 6px 6px 6px 0px #545454;
-  box-shadow: 6px 6px 6px 0px #545454; */
+  margin: 50px 10px 10px 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  -webkit-box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 8px 5px 1px rgba(0, 0, 0, 0.35);
 }
 
 .browser-page__fields-of-interest {
