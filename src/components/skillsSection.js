@@ -4,7 +4,7 @@ import "../css/skillsSection.css"
 function SkillsSection() {
 
     const programmingSkills = ["javascript", "react", "express", "nodejs", "sql", "nosql"];
-    const skillLevels = [80, 75, 70, 70, 75, 65];
+    const skillLevels = [80, 75, 70, 70, 85, 65];
     const otherSkills = [
         "RESTful APIs", 
         "Responsive Web Design", 
