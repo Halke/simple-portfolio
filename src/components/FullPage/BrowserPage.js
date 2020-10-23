@@ -12,9 +12,9 @@ import "../../css/browserPage.css";
 
 function BrowserPage() {
     return (
-        <div>
+        <div id="home">
             <Navbar />
-            <HeaderSection id="home" />
+            <HeaderSection />
             <div className="browser-page__content">
                 <div id="about" className="browser-page__about">
                     <DescriptiveSection
@@ -50,7 +50,7 @@ function BrowserPage() {
                         <BottomImageOverlay imageUrl={`${process.env.PUBLIC_URL}/images/backend_bg.png`} />
                     </div>
                 </div>
-                <div className="browser-page__projects">
+                <div id="projects" className="browser-page__projects">
                     <ProjectsSection />
                     <h1 className="browser-page__skills-heading">My Skills</h1>
                 </div>
