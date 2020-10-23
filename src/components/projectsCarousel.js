@@ -3,20 +3,30 @@ import "../css/projectsCarousel.css";
 
 const projects = [
     {
-        name: "Project 1",
-        imageUrl: `${process.env.PUBLIC_URL}/images/home_bg.jpg`,
-        linkToProject: "https://github.com/Halke"
+        name: "Amazon Clone App",
+        imageUrl: `${process.env.PUBLIC_URL}/projects/amazon.PNG`,
+        linkToProject: "https://github.com/Halke/Amazon-Clone"
     },
     {
-        name: "Project 2",
-        imageUrl: `${process.env.PUBLIC_URL}/images/backend_bg.png`,
-        linkToProject: "https://github.com/Halke"
+        name: "Simple Blog App",
+        imageUrl: `${process.env.PUBLIC_URL}/projects/blog.JPG`,
+        linkToProject: "https://github.com/Halke/BlogApp"
     },
     {
-        name: "Project 3",
-        imageUrl: `${process.env.PUBLIC_URL}/images/frontend_bg.png`,
-        linkToProject: "https://github.com/Halke"
-    }
+        name: "Secrets App",
+        imageUrl: `${process.env.PUBLIC_URL}/projects/secrets.JPG`,
+        linkToProject: "https://github.com/Halke/SecretsWebsite_SecurityImplementation"
+    },
+    {
+        name: "To Do App",
+        imageUrl: `${process.env.PUBLIC_URL}/projects/todo.JPG`,
+        linkToProject: "https://github.com/Halke/ToDoList"
+    },
+    {
+        name: "Webflix (Netflix clone) App",
+        imageUrl: `${process.env.PUBLIC_URL}/projects/webflix.PNG`,
+        linkToProject: "https://github.com/Halke/Webflix_Netflix-Clone"
+    },
 ];
 
 function ProjectsCarousel() {
