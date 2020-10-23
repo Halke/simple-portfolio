@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import "../css/mailForm.css";
 
 function MailForm() {
-    const [email, setEmail] = useState({mail: "", subject: "", content: ""});
+    const [email, setEmail] = useState({to: "Dino.primary@gmail.com", from: "", subject: "", content: ""});
 
     const handleChange = e => {
         const {name, value} = e.target;
@@ -13,16 +13,20 @@ function MailForm() {
         }))
     }
 
-    const sendMail = () => {
+    const sendMail = (e) => {
+        e.preventDefault();
 
+        const {to, from, subject, content} = email;
+
+        alert(`Mail je poslao: ${from} na mail ${to}.\nNaslov maila je: ${subject}\nSadrzaj maila je: ${content}`);
     };
 
     return (
         <div className="mail-form">
-            <form className="mail-form__form">
+            <form onSubmit={(e) => sendMail(e)} className="mail-form__form">
                 <div className="mail-form__mail-info">
                     <input
-                        name="mail" 
+                        name="from" 
                         onChange={handleChange} 
                         value={email.mail} 
                         type="email" 
@@ -44,7 +48,7 @@ function MailForm() {
                     name="content" 
                     value={email.content}
                 />
-                <button className="mail-form__send-mail-btn" onClick={sendMail} >
+                <button type="submit" className="mail-form__send-mail-btn">
                     SEND
                 </button>
             </form>

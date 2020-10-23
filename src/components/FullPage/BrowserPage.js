@@ -7,6 +7,7 @@ import BottomImageOverlay from "../bottomImageOverlay";
 import ProjectsSection from "../projectsSection";
 import SkillsSection from "../skillsSection";
 import SendMail from "../sendMail";
+import Footer from "../footer";
 import "../../css/browserPage.css";
 
 function BrowserPage() {
@@ -57,6 +58,7 @@ function BrowserPage() {
             <div className="browser-page__send-mail">
                 <SendMail />
             </div>
+            <Footer />
         </div>
     )
 }
