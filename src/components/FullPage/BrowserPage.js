@@ -43,11 +43,11 @@ function BrowserPage() {
                 <div className="browser-page__fields-of-interest">
                     {/* Overlay from top */}
                     <div>
-                        <TopImageOverlay imageUrl={`${process.env.PUBLIC_URL}/images/frontend_bg.png`} />
+                        <TopImageOverlay imageUrl={`${process.env.PUBLIC_URL}/images/frontend_bg.jpg`} />
                     </div>
                     {/* Overlay from bottom */}
                     <div>
-                        <BottomImageOverlay imageUrl={`${process.env.PUBLIC_URL}/images/backend_bg.png`} />
+                        <BottomImageOverlay imageUrl={`${process.env.PUBLIC_URL}/images/backend_bg.jpg`} />
                     </div>
                 </div>
                 <div id="projects" className="browser-page__projects">
