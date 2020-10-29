@@ -4,7 +4,7 @@ import "../css/projectsCarousel.css";
 const projects = [
     {
         name: "Amazon Clone App",
-        imageUrl: `${process.env.PUBLIC_URL}/projects/amazon.PNG`,
+        imageUrl: `${process.env.PUBLIC_URL}/projects/amazon.jpg`,
         linkToProject: "https://github.com/Halke/Amazon-Clone"
     },
     {
@@ -24,7 +24,7 @@ const projects = [
     },
     {
         name: "Webflix (Netflix clone) App",
-        imageUrl: `${process.env.PUBLIC_URL}/projects/webflix.PNG`,
+        imageUrl: `${process.env.PUBLIC_URL}/projects/webflix.jpg`,
         linkToProject: "https://github.com/Halke/Webflix_Netflix-Clone"
     },
 ];
